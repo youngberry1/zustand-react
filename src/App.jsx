@@ -17,7 +17,7 @@ export default function App() {
                : 'bg-white text-black min-h-screen transition-colors duration-300'
          }
       >
-         <BrowserRouter>
+         <BrowserRouter basename='/zustand-react'>
             <Navbar />
             <div className='p-6'>
                <Routes>
